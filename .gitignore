@@ -1,16 +1,34 @@
-# Only the files listed below are tracked; everything else in the project folder is ignored.
-/*
-!/.gitignore
-!/README.md
-!/requirements.txt
+# Python environments and caches
+.venv*/
+venv/
+__pycache__/
+.ipynb_checkpoints/
 
-# The EDA notebook
-!/notebooks/
-/notebooks/*
-!/notebooks/NSD_EDA.ipynb
+# NSD data: each user must accept the NSD Data Access Agreement and download it (see README)
+nsd_stim_info_merged.csv
+nsd_expdesign.mat
+*.nii.gz
+betas/
 
-# Tables derived from the COCO 2017 annotations (CC BY 4.0), limited to the NSD images
-!/coco_annotations/
-/coco_annotations/*
-!/coco_annotations/nsd_captions.csv
-!/coco_annotations/nsd_instances.csv
+# COCO: the original archive is too large for GitHub; the two extracted tables are tracked
+coco_annotations/*
+!coco_annotations/nsd_captions.csv
+!coco_annotations/nsd_instances.csv
+
+# Large arrays and model files
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.hdf5
+
+# Clones of third-party repositories
+external/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
