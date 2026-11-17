@@ -1,0 +1,8 @@
+# Requirements for the EDA notebooks (notebooks/)
+numpy>=2.0
+pandas>=2.2
+plotly>=6.0
+nibabel>=5.2
+jupyterlab
+ipykernel
+nbformat

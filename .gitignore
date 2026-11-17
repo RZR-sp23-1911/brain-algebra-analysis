@@ -1,0 +1,16 @@
+# Only the files listed below are tracked; everything else in the project folder is ignored.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+
+# The EDA notebook
+!/notebooks/
+/notebooks/*
+!/notebooks/NSD_EDA.ipynb
+
+# Tables derived from the COCO 2017 annotations (CC BY 4.0), limited to the NSD images
+!/coco_annotations/
+/coco_annotations/*
+!/coco_annotations/nsd_captions.csv
+!/coco_annotations/nsd_instances.csv
