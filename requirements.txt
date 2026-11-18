@@ -1,7 +1,8 @@
 # Requirements for the EDA notebooks (notebooks/)
 numpy>=2.0
 pandas>=2.2
-plotly>=6.0
+plotly>=6.1
+kaleido>=1.0   # static copies of the charts (needs Chrome or Chromium installed)
 nibabel>=5.2
 jupyterlab
 ipykernel

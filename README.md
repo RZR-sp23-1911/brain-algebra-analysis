@@ -104,7 +104,7 @@ pip install -r requirements.txt
 jupyter lab notebooks/NSD_EDA.ipynb
 ```
 
-The notebook is saved with its outputs, so tables and charts can be read without running anything.
+The notebook is saved with its outputs, so tables and charts can be read directly on GitHub without running anything. Every chart is stored twice: as an interactive plotly figure (shown in Jupyter and VS Code) and as a static image (shown on GitHub). Creating the static images needs the `kaleido` package and a local Chrome or Chromium.
 
 To run it:
 
